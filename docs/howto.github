@@ -1,0 +1,43 @@
+
+== home page ==
+  * http://github.com
+  * URL: https://arrowworld@github.com/arrowworld/linux.git
+  * git@github.com:arrowworld/linux.git
+  * git://github.com/arrowworld/linux.git  (read only)
+
+== git usage ==
+Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email arrow.ebd@gmail.com
+  Add your public key
+
+Next steps:
+
+  mkdir linux
+  cd linux
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:arrowworld/linux.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:arrowworld/linux.git
+  git push origin master
+      
+
+Importing a Subversion Repo?
+
+  Click here
+      
+
+When you're done:
+
+  Continue
+

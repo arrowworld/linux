@@ -1,0 +1,12 @@
+# git ignore setting
+!.gitignore
+
+*.o
+.*.d
+.*.o
+*.a
+*.so
+
+/tmp
+/z
+
